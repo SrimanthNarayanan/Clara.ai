@@ -1,0 +1,15 @@
+streamlit
+pandas
+google-generativeai
+Markdown
+xhtml2pdf
+matplotlib
+seaborn
+
+# --- Database Connectors ---
+# You may not need all of these depending on which databases you connect to.
+# Remove the ones you don't use to keep your environment smaller.
+pyodbc
+mysql-connector-python
+psycopg2-binary
+snowflake-connector-python
