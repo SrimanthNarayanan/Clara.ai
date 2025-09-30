@@ -36,7 +36,7 @@ st.set_page_config(
 )
 
 # --- 🤫 Secrets and Configuration ---
-GEMINI_API_KEY = "AIzaSyDjQB5Nc0nNRz1bA7uEtMwhg0Z9OAfQp4c" # Replace with your key
+GEMINI_API_KEY = "AIzaSyATMu_d7u6_LbQBVXCNzRaC_1t2-aUykM8" # Replace with your key
 SENDER_EMAIL = "narayanannarayanan15644@gmail.com"
 SENDER_PASSWORD = "cwqe byra cbnl kazs"
 
@@ -417,4 +417,5 @@ if __name__ == "__main__":
     if not st.session_state.logged_in:
         display_login_page()
     else:
+
         display_main_app()
